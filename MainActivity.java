@@ -1,4 +1,4 @@
-package com.example.mycoockieapplication;
+package com.example.mycookieclikerapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         text = findViewById(R.id.text);
         image = findViewById(R.id.image);
-        animation = new TranslateAnimation(0, 100, 0, 0);
-        animation.setDuration(1000);
+        animation = new TranslateAnimation(0, 0, 0, -100);
+        animation.setDuration(500);
 
         image.setOnClickListener(new View.OnClickListener() {
             @Override
